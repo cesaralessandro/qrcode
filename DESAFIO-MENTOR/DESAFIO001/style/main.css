@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    background-color: rgb(229, 229, 250);
+    position: relative;
+    text-align: center;
+}
+
+section.qrcode {
+    width: 300px;
+    display: block;
+    margin: auto;
+    left: 50%;
+    right: 50%;
+}
+
+
+img {
+    border-radius: 10px;
+}
+
+section {
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: .5px;
+    padding-top: 30px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+p {
+    padding-top: 10px;
+    text-align: justify;
+}
